@@ -1,5 +1,5 @@
 # Armory
-A supplement to c++ STL containing miscellaneous data structures and algorithms.
+A supplement to C++ STL containing miscellaneous data structures and algorithms.
 
 ## Data Structures
 
