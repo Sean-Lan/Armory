@@ -3,7 +3,7 @@
  * Sean
  * 2016-07-19
  *
- * Monotonic.h
+ * MonotonicQueue.h
  *
  */
 #ifndef MONOTONIC_QUEUE_H
