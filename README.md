@@ -7,4 +7,4 @@ A supplement to C++ STL containing miscellaneous data structures and algorithms.
 
 ## Algorithms
 
-[Knapsack](./Knapsack)
+[Knapsack](./Knapsack/Knapsack.md)
