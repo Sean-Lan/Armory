@@ -6,8 +6,8 @@
  * Demos for how to write binary search.
  *
  * Serveral note points:
- * 
- * 1. to avoid infinite loop, carefully choose down round ( start = start + (end-start)/2 ) or 
+ *
+ * 1. to avoid infinite loop, carefully choose down round ( start = start + (end-start)/2 ) or
  *    up round ( start = start + (end-start+1)/2 ), you should use the array with 2 elements to test.
  *
  * 2. use start = start + (end-start)/2 instead of start = (start+end)/2, to ensure (end-start)/2 always
@@ -20,6 +20,7 @@
  */
 #include <iostream>
 #include <vector>
+#include <iomanip>
 #include <numeric>
 
 using namespace std;
@@ -135,6 +136,11 @@ void test_last_less_than_or_equal_to_idx(int target) {
 
 int main() {
     iota(iVec.begin(), iVec.end(), 100);
+
+    cout << "Index is: ";
+    for (int i=0; i<iVec.size(); ++i)
+        cout << setw(3) << i << " ";
+    cout << endl;
 
     cout << "Array is: ";
     for (auto &i : iVec)
