@@ -14,12 +14,14 @@
 using namespace std;
 
 // return a table, and table[i] means, if pattern[i] fails to match,
-// the next match should begin at table[i] (if i equals -1, the string
+// the next match should begin at table[i] (if table[i] equals -1, i.e. i equals 0, the string
 // to be matched should move ahead).
+// table[0] and table[1] are fixed value.
 vector<int> kmpTable(const string &pattern) {
     int n = pattern.size();
     vector<int> table(n);
     table[0] = -1;
+    table[1] = 0;
 
     // O(n)
     // pos < n

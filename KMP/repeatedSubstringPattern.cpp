@@ -32,8 +32,7 @@ using namespace std;
 
 // O(n)
 class Solution {
-    // KMP prefix table, table[i] means the maximum characters common in header and tail.
-    // One exeption: If the sting comprises of all the same characters, table[n-1] = n-1.
+    // KMP prefix table, table[i] means the maximum characters common in header and tail (but not the entire string)
     vector<int> prefixTable(const string &str) {
         int n = str.size();
         vector<int> table(n, 0);
