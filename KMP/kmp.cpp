@@ -30,7 +30,7 @@ vector<int> kmpTable(const string &pattern) {
     int i = 0;
     while (pos < n) {
         if (pattern[pos-1] == pattern[i]) { // case 1
-            table[pos] = table[pos-1] + 1;
+            table[pos] = i + 1;
             ++i;
             ++pos;
         } else if (i > 0){ // case 2
