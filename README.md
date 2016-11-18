@@ -5,6 +5,10 @@ A supplement to C++ STL containing miscellaneous data structures and algorithms.
 
 [Monotonic Queue](./MonotonicQueue)
 
+[Union Find](./UnionFind)
+
 ## Algorithms
 
 [Knapsack](./Knapsack/Knapsack.md)
+
+[KMP](./KMP)
