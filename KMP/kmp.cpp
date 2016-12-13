@@ -61,7 +61,7 @@ int kmpSearch(const string &pattern, const string &str) {
         if (str[i+j] == pattern[j]) { // case 1
             ++j;
             if (j == m) return i;
-        } else if (table[j] >= 0){ // case 2
+        } else if (table[j] >= 0) { // case 2
             i = i + j - table[j];
             j = table[j];
         } else { // case 3: table[j] == -1, move i ahead;
