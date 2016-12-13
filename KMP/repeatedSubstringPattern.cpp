@@ -43,7 +43,7 @@ class Solution {
                 table[pos] = i + 1;
                 ++pos;
                 ++i;
-            } else  if (i > 0) {
+            } else if (i > 0) {
                 i = table[i-1];
             } else {
                 table[pos] = 0;
