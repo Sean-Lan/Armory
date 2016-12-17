@@ -1,4 +1,5 @@
 # Armory
+
 A supplement to C++ STL containing miscellaneous data structures and algorithms.
 
 ## Data Structures
@@ -9,6 +10,15 @@ A supplement to C++ STL containing miscellaneous data structures and algorithms.
 
 ## Algorithms
 
+[BinarySearch](./BinarySearch)
+
+[FloodFill](./FloodFill)
+
 [Knapsack](./Knapsack/Knapsack.md)
 
 [KMP](./KMP)
+
+[Sort](./Sort)
+
+[SweepLine](./SweepLine)
+
