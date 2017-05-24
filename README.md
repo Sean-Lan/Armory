@@ -22,3 +22,4 @@ A supplement to C++ STL containing miscellaneous data structures and algorithms.
 
 [SweepLine](./SweepLine)
 
+[SlidingWindow](./SlidingWindow/SlidingWindow.md)
