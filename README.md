@@ -25,3 +25,5 @@ A supplement to C++ STL containing miscellaneous data structures and algorithms.
 [SlidingWindow](./SlidingWindow/SlidingWindow.md)
 
 [Trie](./Trie)
+
+[CatalanNumber](./CatalanNumber)
